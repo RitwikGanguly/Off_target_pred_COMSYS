@@ -1,8 +1,4 @@
-# Off_target_pred_COMSYS
-
-Code, data, and experimental assets for the manuscript:
-
-**An Edge-Aware Heterogeneous Graph Transformer for Biologically Informed Prediction of CRISPR–Cas9 Off-Target Sites**
+## An Edge-Aware Heterogeneous Graph Transformer for Biologically Informed Prediction of CRISPR–Cas9 Off-Target Sites
 
 ## Model workflow
 

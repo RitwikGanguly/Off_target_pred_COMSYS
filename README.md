@@ -1,6 +1,5 @@
 ## An Edge-Aware Heterogeneous Graph Transformer for Biologically Informed Prediction of CRISPR–Cas9 Off-Target Sites
 
-## Model workflow
 
 ![Model workflow for edge-aware heterogeneous graph transformer](model_workflow.png)
 

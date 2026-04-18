@@ -66,3 +66,7 @@ Interpretation: the selected manuscript model (**h96-o96-L3-H4**) is the best-pe
 | Val AUPRC | **0.9986** |
 | Val AUROC | **0.9996** |
 | Val F1 | **0.9844** |
+| Test F1 | **0.9669** |
+| Precision | **0.9859** |
+| Recall | **0.9487** |
+| Accuracy | **0.9838** |

@@ -29,7 +29,7 @@ Primary datasets required for end-to-end reproduction are included in-repo:
 
 - `data/allframe_update_addEpige.txt` (training source)
 - `data/circle_seq_processed.csv` (CIRCLE-seq validation source)
-- `data/all_off_target.csv` (CRISPRDeepOff validation source)
+- `data/all_off_target.csv` (DeepCrispr validation source)
 
 No external download is required for these three files.
 

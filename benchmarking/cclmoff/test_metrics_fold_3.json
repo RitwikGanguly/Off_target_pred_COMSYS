@@ -1,0 +1,14 @@
+{
+  "fold": 3,
+  "best_checkpoint": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/benchmarking/artifacts/cclmoff/checkpoints/best_by_auprc_fold_3.pt",
+  "test_loss": 0.5492308123221903,
+  "test_auroc": 0.8221824038833906,
+  "test_auprc": 0.8041150232751947,
+  "test_f1": 0.7550232466463379,
+  "test_balanced_accuracy": 0.7415539300829317,
+  "test_precision": 0.7176232037379882,
+  "test_recall": 0.7965359493113486,
+  "roc_curve_saved": true,
+  "roc_curve_path": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/benchmarking/artifacts/cclmoff/results/test_roc_curve_fold_3.png",
+  "test_predictions_path": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/benchmarking/artifacts/cclmoff/results/test_predictions_fold_3.csv"
+}

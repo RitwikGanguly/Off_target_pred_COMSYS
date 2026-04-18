@@ -1,0 +1,77 @@
+{
+  "experiment": {
+    "id": "foundation_only",
+    "node_mode": "foundation",
+    "edge_mode": "handcrafted_training_compatible",
+    "title": "foundation nodes + handcrafted edges"
+  },
+  "checkpoint": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/model/new_model_MAIN/best_full.pt",
+  "checkpoint_meta": {
+    "epoch": 368,
+    "val_auroc": 0.999558486824697,
+    "val_auprc": 0.998622542651834
+  },
+  "sampling": {
+    "seed": 42,
+    "n_sample_ot": 450,
+    "n_sample_not": 200,
+    "n_total": 650,
+    "num_guides": 28,
+    "num_sites": 609
+  },
+  "node_embedding_meta": {
+    "guide_source": "RNA-FM",
+    "site_source": "DNABERT-2",
+    "guide_raw_dim": 640,
+    "site_raw_dim": 768,
+    "guide_post_dim": 128,
+    "site_post_dim": 128,
+    "rna_load_details": "local_backbone_load missing=2 unexpected=0",
+    "dna_load_details": "local_backbone_load missing=2 unexpected=6"
+  },
+  "edge_embedding_meta": {
+    "edge_source": "handcrafted_25d_training_compatible",
+    "edge_dim": 25
+  },
+  "metrics": {
+    "auroc": 0.8896222222222222,
+    "auprc": 0.9398092669913065,
+    "optimal_f1": 0.8932642437273485,
+    "threshold": 0.16429194808006287,
+    "f1": 0.8932642487046633,
+    "precision": 0.8368932038834952,
+    "recall": 0.9577777777777777,
+    "accuracy": 0.8415384615384616,
+    "mcc": 0.6118621778010443,
+    "tp": 431,
+    "fp": 84,
+    "tn": 116,
+    "fn": 19,
+    "specificity": 0.58,
+    "f1_at_0p5": 0.8627906976744186,
+    "precision_at_0p5": 0.9048780487804878,
+    "recall_at_0p5": 0.8244444444444444,
+    "accuracy_at_0p5": 0.8184615384615385,
+    "specificity_at_0p5": 0.805
+  },
+  "label1_stats": {
+    "n": 450,
+    "mean_score": 0.7651057839393616,
+    "median_score": 0.8803556561470032,
+    "detected_at_threshold": 431,
+    "detected_at_0p5": 371
+  },
+  "label0_stats": {
+    "n": 200,
+    "mean_score": 0.2553037703037262,
+    "median_score": 0.13203498721122742,
+    "rejected_at_threshold": 116,
+    "rejected_at_0p5": 161
+  },
+  "plot_paths": {
+    "roc_curve": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/results/validation_crisprdeepoff/ot450_not200_seed42/crisprdeepoff_foundation_only_roc_curve.pdf",
+    "pr_curve": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/results/validation_crisprdeepoff/ot450_not200_seed42/crisprdeepoff_foundation_only_pr_curve.pdf",
+    "score_distributions": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/results/validation_crisprdeepoff/ot450_not200_seed42/crisprdeepoff_foundation_only_score_distributions.pdf",
+    "confusion_matrix": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/results/validation_crisprdeepoff/ot450_not200_seed42/crisprdeepoff_foundation_only_confusion_matrix.pdf"
+  }
+}

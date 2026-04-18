@@ -1,0 +1,32 @@
+{
+  "source": {
+    "log": "training_output.log",
+    "combined_figure": "figs/offtarget_enhanced_training.png",
+    "distribution_figure": "figs/offtarget_enhanced_distribution.png"
+  },
+  "test_metrics": {
+    "loss": 0.015,
+    "auprc": 0.9956,
+    "auroc": 0.9984,
+    "f1": 0.9669,
+    "precision": 0.9859,
+    "recall": 0.9487,
+    "threshold": 0.0779,
+    "n_pos": 13514,
+    "n_neg": 40542,
+    "checkpoint_path": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/model/new_model_MAIN/best_full.pt"
+  },
+  "derived_confusion": {
+    "tp": 12821,
+    "tn": 40359,
+    "fp": 183,
+    "fn": 693,
+    "accuracy": 0.9837945833949978,
+    "specificity": 0.99548616249815
+  },
+  "notes": [
+    "PR and ROC panels are cropped from existing combined figure.",
+    "Score distribution panel is cropped from existing distribution figure.",
+    "Confusion matrix is reconstructed from precision/recall and class counts in training_output.log."
+  ]
+}

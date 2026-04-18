@@ -1,0 +1,30 @@
+{
+  "auroc": 0.9620573470835379,
+  "auprc": 0.992318920768163,
+  "f1_score": 0.9130601302183071,
+  "precision": 0.8400281888653982,
+  "recall": 1.0,
+  "confusion_matrix": [
+    [
+      19,
+      227
+    ],
+    [
+      0,
+      1192
+    ]
+  ],
+  "classification_report": "                precision    recall  f1-score   support\n\n On-target (0)       1.00      0.08      0.14       246\nOff-target (1)       0.84      1.00      0.91      1192\n\n      accuracy                           0.84      1438\n     macro avg       0.92      0.54      0.53      1438\n  weighted avg       0.87      0.84      0.78      1438\n",
+  "batch_size": 10000,
+  "epochs": 100,
+  "train_size": 4703,
+  "test_size": 1438,
+  "learning_rate": 0.0001,
+  "split_method": "unique (guide, target) pair split (no pair in both train and test)",
+  "unique_pairs_train": 3450,
+  "unique_pairs_test": 863,
+  "pair_overlap": 0,
+  "task": "Predict ON-target (label=0) vs OFF-target (label=1)",
+  "n_on_targets": 1141,
+  "n_off_targets": 5000
+}

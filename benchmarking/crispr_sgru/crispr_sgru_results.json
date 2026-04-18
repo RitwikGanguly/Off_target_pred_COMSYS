@@ -1,0 +1,42 @@
+{
+  "auroc": 0.9671325576678406,
+  "auprc": 0.9776562369956652,
+  "f1_score": 0.8646464646464647,
+  "precision": 1.0,
+  "recall": 0.7615658362989324,
+  "mcc": 0.7518751083015305,
+  "accuracy": 0.8586497890295358,
+  "confusion_matrix": [
+    [
+      193,
+      0
+    ],
+    [
+      67,
+      214
+    ]
+  ],
+  "classification_report": "                precision    recall  f1-score   support\n\n On-target (0)       0.74      1.00      0.85       193\nOff-target (1)       1.00      0.76      0.86       281\n\n      accuracy                           0.86       474\n     macro avg       0.87      0.88      0.86       474\n  weighted avg       0.90      0.86      0.86       474\n",
+  "batch_size": 256,
+  "epochs": 80,
+  "learning_rate": 0.0001,
+  "dropout_rate": 0.1,
+  "train_size": 2456,
+  "val_size": 317,
+  "test_size": 474,
+  "split_method": "Guide_sequence-level split into train/val/test (unseen guides in test)",
+  "unique_guides_train": 204,
+  "unique_guides_val": 51,
+  "unique_guides_test": 64,
+  "guide_overlap_train_val": 0,
+  "guide_overlap_train_test": 0,
+  "guide_overlap_val_test": 0,
+  "task": "Predict ON-target (label=0) vs OFF-target (label=1)",
+  "n_on_targets": 1037,
+  "n_off_targets": 2210,
+  "hard_negative_max_mismatch": 1,
+  "off_exact_match_ratio": 0.12,
+  "hard_negative_pool_size": 406,
+  "off_total_size": 244705,
+  "source_data": "/home/bernadettem/TNBC/bgnmf_benchmarking/chemi/off_target1/data/allframe_update_addEpige.txt"
+}

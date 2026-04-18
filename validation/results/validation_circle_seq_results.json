@@ -1,0 +1,54 @@
+{
+  "dataset": "CIRCLE-seq (Tsai et al. 2017, Nature Methods)",
+  "config": {
+    "n_sample_ot": 600,
+    "n_sample_not": 400,
+    "seed": 42,
+    "num_guides": 11,
+    "num_sites": 576
+  },
+  "metrics": {
+    "auroc": 0.9813888888888889,
+    "auprc": 0.9994424860336468,
+    "optimal_f1": 0.9884488398849787,
+    "threshold": 0.03977280855178833,
+    "f1": 0.9884488448844885,
+    "precision": 0.9787581699346405,
+    "recall": 0.9983333333333333,
+    "accuracy": 0.9773462783171522,
+    "mcc": 0.473526648976816,
+    "tp": 599,
+    "fp": 13,
+    "tn": 5,
+    "fn": 1,
+    "specificity": 0.2777777777777778
+  },
+  "metrics_raw": {
+    "auroc": 0.018611111111111113,
+    "auprc": 0.90075706753377,
+    "optimal_f1": 0.9852216698779394,
+    "threshold": 0.018672695383429527,
+    "f1": 0.9852216748768473,
+    "precision": 0.970873786407767,
+    "recall": 1.0,
+    "accuracy": 0.970873786407767,
+    "mcc": 0.0,
+    "tp": 600,
+    "fp": 18,
+    "tn": 0,
+    "fn": 0,
+    "specificity": 0.0
+  },
+  "label1_stats": {
+    "n": 600,
+    "mean_score": 0.6372101902961731,
+    "median_score": 0.8393867611885071,
+    "detected": 599
+  },
+  "label0_stats": {
+    "n": 18,
+    "mean_score": 0.957510232925415,
+    "median_score": 0.9574943780899048,
+    "rejected": 5
+  }
+}

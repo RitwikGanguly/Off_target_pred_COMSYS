@@ -105,6 +105,10 @@ Validation metrics for this configuration:
 | Validation AUPRC | 0.9986 |
 | Validation AUROC | 0.9996 |
 | Validation F1 | 0.9844 |
+| Test F1 | **0.9669** |
+| Precision | **0.9859** |
+| Recall | **0.9487** |
+| Accuracy | **0.9838** |
 
 For the compact reviewer-facing ablation summary, see `ablation/ablation_study.md`.
 
